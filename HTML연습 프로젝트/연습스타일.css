@@ -1,0 +1,58 @@
+a {
+  color: #ff6434;
+  text-decoration-line: none;
+}
+li {
+  list-style: none;
+}
+body {
+  margin: 0%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.navgation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blanchedalmond;
+}
+.nav__icon {
+  padding-left: 25px;
+  font-size: 24px;
+  color: #dd2c00;
+}
+.nav__icon a {
+  color: #c96f53;
+}
+
+.navi__menu {
+  padding-right: 500px;
+  display: flex;
+  color: #ff6434;
+}
+.navi__menu li {
+  padding: 25px 25px 25px 25px;
+}
+.navi__menu li:hover {
+  border-radius: 90%;
+  background-color: white;
+  transition: 0.5s ease;
+}
+.nav_AFT_Icons {
+  display: flex;
+  font-size: 24px;
+  padding-right: 25px;
+}
+.nav_AFT_Icons li {
+  padding: 4px 15px;
+}
+
+@media screen and (max-width: 1252px) {
+  .navgation {
+    flex-direction: column;
+  }
+  .navi__menu {
+    padding-right: 0px;
+  }
+}
