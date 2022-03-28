@@ -142,7 +142,7 @@ main {
   color: #cbbead;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 900px) {
   .nav__icon__underline {
     width: 100%;
     border-bottom: 7px dotted #dd2c00;
