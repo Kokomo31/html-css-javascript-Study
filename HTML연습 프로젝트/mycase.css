@@ -9,8 +9,7 @@ strong {
     list-style: none;
   }
   body {
-    display:flex;
-    flex-flow: column wrap;
+   
     margin: 0%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
@@ -65,10 +64,10 @@ strong {
     padding: 4px 15px;
   }
  .flexbox1 {
-  display: flex; 
+  display: flex;
+   
  } 
  .leftsideNAV{
-   padding-left: 20px;
      background-color: #c96f53;
      margin: 0px;
      width: 203px;
@@ -76,6 +75,7 @@ strong {
      display: flex;
      flex-flow: column wrap;
      justify-content: space-around;
+     position: absolute;
  }
 #List1BTN {
     background-color: #c96f53;
@@ -132,6 +132,70 @@ background-repeat: no-repeat;
   color: black;
   font-size: 30px;
 }
+
+.learnMain1{
+  display: flex;
+align-items: stretch;
+justify-content: flex-start;
+  background-color: black;
+  width: 1963px;
+  height: 900px;
+
+}
+.lifeCoding {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  width: ;
+  height: 900px;
+  background-color: #DFDFDE;
+}
+.lifCodingItem1 {
+  background-color: aquamarine;
+  width: 50px;
+  height: 50px;
+
+}
+.lifCodingItem2 {
+  background-color: aquamarine;
+  width: 50px;
+  height: 50px;
+}
+.lifCodingItem3 {
+  background-color: aquamarine;
+  width: 50px;
+  height: 50px;
+}
+
+.dremaCoding {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  height: 900px;
+  background-color: yellow;
+}
+.dreamCodingItem1 {
+  background-color: #dd2c00;
+  width: 50px;
+  height: 50px;
+
+}
+.dreamCodingItem2 {
+  background-color: #dd2c00;
+  width: 50px;
+  height: 50px;
+  
+}
+.dreamCodingItem3 {
+  background-color: #dd2c00;
+  width: 50px;
+  height: 50px;
+  
+}
+
 
 
 
